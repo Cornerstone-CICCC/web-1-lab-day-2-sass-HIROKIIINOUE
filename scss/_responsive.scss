@@ -1,0 +1,43 @@
+@media (max-width: 426px) {
+  header {
+
+    nav {
+      margin: 0;
+      padding: 0;
+
+      ul {
+        font-size: 12px;
+
+        li {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  main {
+    section {
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        img {
+          max-width: 100%;
+          width: auto;
+          height: 100vh;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 8px;
+    height: 30px;
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
